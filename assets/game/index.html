@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>THE WAR</title>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<style>
+
+body {  background-image:url(environment%20copy.jpg);
+		background-size: cover;
+		background-attachment:fixed; }
+#gamepad {  position: fixed;
+			margin-top: 100px;
+			background-color:#0F6;
+			width: 400px;
+			height: 300px;
+ }
+#antigonist { ;
+			  margin-top: 100px;
+			  margin-left: 40%;
+}
+#wall { margin-top:100px ;
+		margin-left: 38%; }
+
+#antigonist2 { margin-top: 60px;
+				margin-left:80%; 
+}
+</style>
+
+<body>
+<div>
+<img id="character" src="protagonist.png" >
+</div>
+<div class="fixed-bottom">
+<img  id="antigonist" src="antigonist.png">
+</div>
+<div>
+<img id="wall" src="wall.png">
+</div>
+<div class="fixed-bottom">
+<img id="antigonist2" src="antigonist2.png">
+</div>
+<div id="gamepad" class="fixed-bottom">
+<button id="move" class="btn btn-danger btn-lg m-2">MOVE TO 1</button> 
+<button id="move2" class="btn btn-danger btn-lg m-2">MOVE TO 2</button> 
+<button id="move3" class="btn btn-danger btn-lg m-2">MOVE TO 3</button> 
+<button id="turn" onClick="turn()" class="btn btn-danger btn-lg m-2">Turn</button> 
+<button id="wallbreak" class="btn btn-danger btn-lg m-2">break wall</button>
+<button id="shoot" onClick="shoot()" class="btn btn-danger btn-lg m-2">Shoot</button> 
+<button id="move4" class="btn btn-danger btn-lg m-2">MOVE TO 4</button> 
+<button id="hide" class="btn btn-danger btn-lg m-2">Hide body</button> 
+<button id="turn2" onClick="turn2()" class="btn btn-danger btn-lg m-2">Turn </button> 
+<button id="Shoot2" onClick="shoot2()"  class="btn btn-danger btn-lg m-2">Shoot</button> 
+<button id="move5" class="btn btn-danger btn-lg m-2">Move to 5</button> 
+<button id="hide2" class="btn btn-danger btn-lg m-2">Hide body</button> 
+<button id="move6" onClick="end()" class="btn btn-danger btn-lg m-2">END</button> 
+</div>
+
+<script>
+
+
+$(document).ready(function() {
+	$("#move").click(function(){
+		$("#character").animate({marginLeft:'90px'});
+	});
+    
+
+});
+$(document).ready(function() {
+	$("#move2").click(function(){
+		$("#character").animate({marginLeft:'300px'});
+	});
+    
+});
+$(document).ready(function() {
+	$("#move3").click(function(){
+		$("#character").animate({marginLeft:'540px'});
+	});
+    
+});
+$(document).ready(function() {
+	$("#move5").click(function(){
+		$("#character").animate({marginLeft:'900px'});
+	});
+    
+});
+$(document).ready(function() {
+	$("#move6").click(function(){
+		$("#character").animate({marginLeft:'1250px'}).end()
+	});
+    
+});
+$(document).ready(function() {
+	$("#move4").click(function(){
+		$("#character").animate({marginTop:'500px'});
+	});
+    
+});
+$(document).ready(function() {
+	$("#hide").click(function(){
+		$("#antigonist").hide();
+	});
+    
+});
+$(document).ready(function() {
+	$("#hide2").click(function(){
+		$("#antigonist2").hide();
+	});
+    
+});
+$(document).ready(function() {
+	$("#wallbreak").click(function(){
+		$("#wall").hide();
+	});
+    
+});
+
+
+
+</script>
+<script>
+	function turn()
+{
+	document.getElementById("character").src="proturned.png"; 
+};
+function shoot()
+{
+	document.getElementById("antigonist").src="died.png"; 
+}
+	function turn2()
+{
+	document.getElementById("character").src="proturned2.png"; 
+}
+function shoot2()
+{
+	document.getElementById("antigonist2").src="died.png"; 
+}
+function end()
+{ alert("YOU WON!"); }
+
+</script>
+</body>
+</html>

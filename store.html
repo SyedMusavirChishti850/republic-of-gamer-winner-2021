@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<title>The Gamer's Republic | Store</title>
+<link href=images/asus-republic-of-gamers-logo-8B94B18AD7-seeklogo.com.png rel=icon type=image/png>
+<meta content="width=device-width,initial-scale=1" name=viewport>
+<meta content="IE=edge" http-equiv=X-UA-Compatible>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7cOpen+Sans:400,700" rel=stylesheet>
+<link href=assets/vendor/bootstrap/dist/css/bootstrap.min.css rel=stylesheet>
+<script src=assets/vendor/fontawesome-free/js/all.js defer></script>
+<script src=assets/vendor/fontawesome-free/js/v4-shims.js defer></script>
+<link href=assets/vendor/ionicons/css/ionicons.min.css rel=stylesheet>
+<link href=assets/vendor/flickity/dist/flickity.min.css rel=stylesheet>
+<link href=assets/vendor/photoswipe/dist/photoswipe.css rel=stylesheet>
+<link href=assets/vendor/photoswipe/dist/default-skin/default-skin.css rel=stylesheet>
+<link href=assets/vendor/bootstrap-slider/dist/css/bootstrap-slider.min.css rel=stylesheet>
+<link href=assets/vendor/summernote/dist/summernote-bs4.css rel=stylesheet>
+<link href=assets/css/gamer-republic.css rel=stylesheet>
+
+<script src=assets/vendor/jquery/dist/jquery.min.js></script>
+<script src=assets/vendor/jquery/dist/jquery.min.js></script><button class=btn onclick=topFunction() id=myBtn
+    title="Go to top"><i class="fas fa-angle-double-up"></i></button>
+
+
+<header class="header header-opaque">
+    <div class=contacts-top>
+        <div class=container>
+            <div class=contacts-left>
+                <ul class=social-links>
+                    <li><a href=# class=social-rss><span class="fa fa-rss"></span></a>
+                    <li><a href=# class=social-twitch><span class="fab fa-twitch"></span></a>
+                    <li><a href=# class=social-steam><span class="fab fa-steam"></span></a>
+                    <li><a href=# class=social-facebook><span class="fab fa-facebook"></span></a>
+                    <li><a href=# class=social-google-plus><span class="fab fa-google-plus"></span></a>
+                    <li><a href=# class=social-twitter target=_blank><span class="fab fa-twitter"></span></a>
+                    <li><a href=# class=social-pinterest><span class="fab fa-pinterest-p"></span></a>
+                </ul>
+            </div>
+            <div class=contacts-right>
+                <ul class=contacts-icons>
+                    <li><a href=# onclick=playclip() data-target=#modalSearch data-toggle=modal><span
+                                class="fa fa-search"></span></a>
+                    <li><a href=# onclick=playclip() data-target=#exampleModal data-toggle=modal><span
+                                class="fa fa-bomb"></span></a>
+                    <li><a href=# onclick=playclip() data-target=#modalLogin data-toggle=modal><span
+                                class="fa fa-user"></span></a>
+                    <li><span class=cart-toggle onclick=playclip()><span class="fa fa-shopping-cart"></span> <span
+                                class=badge><span id="demo">0</span></span></span>
+                        <div class=cart-dropdown>
+                            <div class=widget-post id="productars" style="display: none;"><a href=store-product.html
+                                    class=post-image><img src=assets/images/product-md-50.jpg></a>
+                                <h3 class=post-title><a href=# class=cart-remove-item><span
+                                            class=ion-android-close></span></a> <a href=store-product.html>Asus Rog
+                                        Strix
+                                    </a></h3>
+                                <div class=gap-1></div>
+                                <div class=product-price>PKR 45000</div>
+                            </div>
+                            <div class=widget-post id="productgh" style="display: none;"><a href=store-product.html
+                                    class=post-image><img src=assets/images/product-8-md.jpg></a>
+                                <h3 class=post-title><a href=# class=cart-remove-item><span
+                                            class=ion-android-close></span></a> <a href=store-product.html>C9000 gaming
+                                        headphone</a></h3>
+                                <div class=gap-1></div>
+                                <div class=product-price>PKR 2000</div>
+                            </div>
+                            <div class=widget-post id="productci" style="display: none;"><a href=store-product.html
+                                    class=post-image><img src=assets/images/product-9-md.jpg></a>
+                                <h3 class=post-title><a href=# class=cart-remove-item><span
+                                            class=ion-android-close></span></a> <a href=store-product.html>Intel Core i5
+                                        3rd Gen</a></h3>
+                                <div class=gap-1></div>
+                                <div class=product-price>PKR 23000</div>
+                            </div>
+                            <div class=widget-post id="productrk" style="display: none;"><a href=store-product.html
+                                    class=post-image><img
+                                        src=assets/images/Redragon-K585-DITI-Gaming-Keyboard-Main.jpg></a>
+                                <h3 class=post-title><a href=# class=cart-remove-item><span
+                                            class=ion-android-close></span></a> <a
+                                        href=store-product.html></a>REDRAGON-K585-DITI-GAMING-KEYBOARD
+
+                                </h3>
+                                <div class=gap-1></div>
+                                <div class=product-price>PKR 32000</div>
+                            </div>
+
+                            <div class=gap-2></div>
+                            <div class=text-center><a href=store-cart.html
+                                    class="btn btn-rounded btn-color-main-1 btn-hover-color-white">Go to cart
+                                </a></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-autohide navbar-sticky navbar-top">
+        <div class=container>
+            <div class=nav-table><a href=index.html class=nav-logo><img src=assets/images/logo.png alt=GoodGames
+                        width=199></a>
+                <ul class="nav nav-right d-lg-table-cell d-none" data-nav-mobile=#nav-mobile>
+                    <li><a href="user home.html">Home</a>
+                    <li class=drop-item><a href=blog-list.html>Blog</a>
+                        <ul class=dropdown>
+                            <li><a href=news.html>News</a>
+                            <li><a href=blog-list.html>Blog List</a>
+                            <li><a href=blog-article.html>Blog Article by Muhammad Minhaj</a>
+                            <li><a href=blog-article-Musavir.html>Blog Article by Syed Musavir</a>
+                        </ul>
+                    <li><a href=wallpapers.html>Gallery</a>
+                    <li class=drop-item><a href=tournaments.html>Tournaments</a>
+                        <ul class=dropdown>
+                            <li><a href=tournaments.html>Tournament</a>
+                            <li><a href=tournaments-teammate.html>1st Teammate</a>
+                            <li><a href="tournaments-teammate - 1.html">2nd Teammate</a>
+                        </ul>
+                    <li class="drop-item active"><a href=store.html>Store</a>
+                        <ul class=dropdown>
+                            <li class=active><a href=store.html>Store</a>
+                            <li><a href=store-product.html>Product</a>
+
+                            <li><a href=store-products.html>Gaming Products</a>
+                            <li><a href=store-checkout.html>Checkout</a>
+                            <li><a href=store-cart.html>Cart</a>
+                        </ul>
+                    </li>
+                    <ul class="nav nav-right nav-icons">
+                        <li class="d-lg-none single-icon"><a href=# class=no-lieffect data-nav-toggle=#nav-mobile><span
+                                    class=icon-burger><span class=t-1></span> <span class=t-2></span> <span
+                                        class=t-3></span></span></a>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="d-lg-none navbar navbar-overlay-content navbar-right-side navbar-side" id=nav-mobile>
+    <div class=nano>
+        <div class=nano-content><a href=index.html class=nav-logo><img src=assets/images/logo.png alt="" width=120></a>
+            <div class=navbar-mobile-content>
+                <ul class=nav></ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class=main>
+    <div class=gap-1></div>
+    <div class=container>
+        <ul class=breadcrumbs>
+            <li><a href=index.html>Home</a>
+            <li><span class="fa fa-angle-right"></span>
+            <li><a href=index.html>Store</a>
+            <li><span>Store</span>
+        </ul>
+    </div>
+    <div class=gap-1></div>
+    <div class=container>
+        <div class="row vertical-gap">
+            <div class=col-lg-4>
+                <div class=feature-1>
+                    <div class=feature-icon><img src=assets/images/icon-mouse.png alt=""></div>
+                    <div class=feature-cont>
+                        <h3 class=feature-title><a href=#>PC</a></h3>
+                        <h3 class="text-main-1 feature-title"><a href=#>View Games</a></h3>
+                    </div>
+                </div>
+            </div>
+            <div class=col-lg-4>
+                <div class=feature-1>
+                    <div class=feature-icon><img src=assets/images/icon-gamepad.png alt=""></div>
+                    <div class=feature-cont>
+                        <h3 class=feature-title><a href=#>PS4</a></h3>
+                        <h3 class="text-main-1 feature-title"><a href=#>View Games</a></h3>
+                    </div>
+                </div>
+            </div>
+            <div class=col-lg-4>
+                <div class=feature-1>
+                    <div class=feature-icon><img src=assets/images/icon-gamepad-2.png alt=""></div>
+                    <div class=feature-cont>
+                        <h3 class=feature-title><a href=#>Xbox</a></h3>
+                        <h3 class="text-main-1 feature-title"><a href=#>View Games</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=gap-2></div>
+        <div class="row vertical-gap">
+            <div class="col-md-6 col-lg-4">
+                <div class=gallery-item-box><a href=store-product.html class=gallery-item><span
+                            class=gallery-item-overlay><span><span class=icon-circles></span></span></span> <img
+                            src=assets/images/product-4-lg.jpg alt="She was bouncing"></a>
+                    <div class=gallery-item-label>
+                        <h4 class=mb-0>She was bouncing</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 order-lg-3">
+                <div class=gallery-item-box><a href=store-product.html class=gallery-item><span
+                            class=gallery-item-overlay><span><span class=icon-circles></span></span></span> <img
+                            src=assets/images/product-2-xs.jpg alt="However, I have reason"></a>
+                    <div class=gallery-item-label>
+                        <h4 class=mb-0>Grand Theft Auto V</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="row vertical-gap">
+                    <div class=col-md-6>
+                        <div class=gallery-item-box><a href=store-product.html class=gallery-item><span
+                                    class=gallery-item-overlay><span><span class=icon-circles></span></span></span> <img
+                                    src=assets/images/product-3-lg.jpg alt="It was some time before"></a></div>
+                    </div>
+                    <div class=col-md-6>
+                        <div class=gallery-item-box><a href=store-product.html class=gallery-item><span
+                                    class=gallery-item-overlay><span><span class=icon-circles></span></span></span> <img
+                                    src=assets/images/product-1-lg.jpg alt="So saying he unbuckled"></a></div>
+                    </div>
+                    <div class=col-md-6>
+                        <div class=gallery-item-box><a href=store-product.html class=gallery-item><span
+                                    class=gallery-item-overlay><span><span class=icon-circles></span></span></span> <img
+                                    src=assets/images/product-5-lg.jpg alt="In all revolutions of"></a></div>
+                    </div>
+                    <div class=col-md-6>
+                        <div class=gallery-item-box><a href=store-product.html class=gallery-item><span
+                                    class=gallery-item-overlay><span><span class=icon-circles></span></span></span> <img
+                                    src=assets/images/product-6-lg.jpg alt="Just then her head "></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=gap-3></div>
+        <h3 class=decorated-h-2><span><span class=text-main-1>Top 10</span> Best Selling titles</span></h3>
+        <div class=gap></div>
+        <div class="carousel carousel-x4" data-arrows=true data-autoplay=5000 data-cell-align=left data-dots=false>
+            <div class=carousel-inner>
+                <div>
+                    <div class="pl-5 pr-5">
+                        <div class=product-cat-3><a href=store-product.html class=product-image><img
+                                    src=assets/images/product-1-xs.jpg></a>
+                            <div class=product-cont>
+                                <div class=gap-1></div>
+                                <h3 class="h5 product-title"><a href=store-product.html>Uncharted 4</a></h3>
+                                <div class=gap-1></div>
+                                <div class=product-price>PKR 2300</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="pl-5 pr-5">
+                        <div class=product-cat-3><a href=store-product.html class=product-image><img
+                                    src=assets/images/product-2-xs.jpg></a>
+                            <div class=product-cont>
+                                <div class=gap-1></div>
+                                <h3 class="h5 product-title"><a href=store-product.html>Grand Theft Auto V</a></h3>
+                                <div class=gap-1></div>
+                                <div class=product-price>PKR 3200</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="pl-5 pr-5">
+                        <div class=product-cat-3><a href=store-product.html class=product-image><img
+                                    src=assets/images/product-3-xs.jpg></a>
+                            <div class=product-cont>
+                                <div class=gap-1></div>
+                                <h3 class="h5 product-title"><a href=store-product.html>Crysis 3</a></h3>
+                                <div class=gap-1></div>
+                                <div class=product-price>PKR 1400</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="pl-5 pr-5">
+                        <div class=product-cat-3><a href=store-product.html class=product-image><img
+                                    src=assets/images/product-4-xs.jpg></a>
+                            <div class=product-cont>
+                                <div class=gap-1></div>
+                                <h3 class="h5 product-title"><a href=store-product.html>BattleField V</a></h3>
+                                <div class=gap-1></div>
+                                <div class=product-price>PKR 2000</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="pl-5 pr-5">
+                        <div class=product-cat-3><a href=store-product.html class=product-image><img
+                                    src=assets/images/product-5-xs.jpg alt="In all revolutions of"></a>
+                            <div class=product-cont>
+                                <div class=gap-1></div>
+                                <h3 class="h5 product-title"><a href=store-product.html>Assassins Creed 4 Black Flag</a>
+                                </h3>
+                                <div class=gap-1></div>
+                                <div class=product-price>PKR 2300</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="pl-5 pr-5">
+                        <div class=product-cat-3><a href=store-product.html class=product-image><img
+                                    src=assets/images/product-6-xs.jpg></a>
+                            <div class=product-cont>
+                                <div class=gap-1></div>
+                                <h3 class="h5 product-title"><a href=store-product.html>Assassins Creed Odyssey</a></h3>
+                                <div class=gap-1></div>
+                                <div class=product-price>PKR 3200</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="pl-5 pr-5">
+                        <div class=product-cat-3><a href=store-product.html class=product-image><img
+                                    src=assets/images/product-7-xs.jpg></a>
+                            <div class=product-cont>
+                                <div class=gap-1></div>
+                                <h3 class="h5 product-title"><a href=store-product.html>CyberPunk 2077</a></h3>
+                                <div class=gap-1></div>
+                                <div class=product-price>PKR 1400</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="pl-5 pr-5">
+                        <div class=product-cat-3><a href=store-product.html class=product-image><img
+                                    src=assets/images/product-8-xs.jpg></a>
+                            <div class=product-cont>
+                                <div class=gap-1></div>
+                                <h3 class="h5 product-title"><a href=store-product.html>Resident Evil 7</a></h3>
+                                <div class=gap-1></div>
+                                <div class=product-price>PKR 2000</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="pl-5 pr-5">
+                        <div class=product-cat-3><a href=store-product.html class=product-image><img
+                                    src=assets/images/product-9-xs.jpg alt="The word was"></a>
+                            <div class=product-cont>
+                                <div class=gap-1></div>
+                                <h3 class="h5 product-title"><a href=store-product.html>The word was</a></h3>
+                                <div class=gap-1></div>
+                                <div class=product-price>PKR 2300</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="pl-5 pr-5">
+                        <div class=product-cat-3><a href=store-product.html class=product-image><img
+                                    src=assets/images/product-10-xs.jpg></a>
+                            <div class=product-cont>
+                                <div class=gap-1></div>
+                                <h3 class="h5 product-title"><a href=store-product.html></a>Horizon</h3>
+                                <div class=gap-1></div>
+                                <div class=product-price>PKR 3200</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=gap-3></div>
+        <h3 class=decorated-h-2><span><span class=text-main-1>Featured</span> Products</span></h3>
+        <div class=gap></div>
+        <div class="row vertical-gap">
+            <div class=col-lg-6>
+                <div class=product-cat-2><a href=store-product.html class=product-image><img
+                            src=assets/images/product-md-50.jpg></a>
+                    <div class=product-cont>
+                        <h3 class="h5 product-title"><a href=store-product.html>ASUS ROG strix</a></h3>
+                        <div class=gap-1></div>
+                        <div class=product-rating data-rating=3.5><i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i> <i class="fas fa-star-half"></i> <i class="fa-star far"></i>
+                        </div>
+                        <div class=gap-1></div>
+                        <div class=gap-2></div>
+                        <div class=product-price>PKR 45000</div>
+                        <div class=gap-1></div><button class="btn btn-rounded btn-color-dark-3 btn-hover-color-main-1"
+                            onclick=f5()>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class=col-lg-6>
+                <div class=product-cat-2><a href=store-product.html class=product-image><img
+                            src=assets/images/product-8-md.jpg></a>
+                    <div class=product-cont>
+                        <h3 class="h5 product-title"><a href=store-product.html>G9000 Gaming Headphones</a></h3>
+                        <div class=gap-1></div>
+                        <div class=product-rating data-rating=4.5><i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fas fa-star-half"></i>
+                        </div>
+                        <div class=gap-1></div>
+                        <div class=gap-2></div>
+                        <div class=product-price>PKR 2000</div>
+                        <div class=gap-1></div><button class="btn btn-rounded btn-color-dark-3 btn-hover-color-main-1"
+                            onclick=f6()>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class=col-lg-6>
+                <div class=product-cat-2><a href=store-product.html class=product-image><img
+                            src=assets/images/product-9-md.jpg></a>
+                    <div class=product-cont>
+                        <h3 class="h5 product-title"><a href=store-product.html>Core i5 3rd generation</a></h3>
+                        <div class=gap-1></div>
+                        <div class=product-rating data-rating=5><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></div>
+                        <div class=gap-1></div>
+                        <div class=gap-2></div>
+                        <div class=product-price>PKR 23000</div>
+                        <div class=gap-1></div><button class="btn btn-rounded btn-color-dark-3 btn-hover-color-main-1"
+                            onclick=f7()>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class=col-lg-6>
+                <div class=product-cat-2><a href=store-product.html class=product-image><img
+                            src=assets/images/Redragon-K585-DITI-Gaming-Keyboard-Main.jpg></a>
+                    <div class=product-cont>
+                        <h3 class="h5 product-title"><a href=store-product.html>Redragon-K585-DITI-Gaming-Keyboard</a>
+                        </h3>
+                        <div class=gap-1></div>
+                        <div class=product-rating data-rating=3.5><i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i> <i class="fas fa-star-half"></i> <i class="fa-star far"></i>
+                        </div>
+                        <div class=gap-1></div>
+                        <div class=gap-2></div>
+                        <div class=product-price>PKR 32000</div>
+                        <div class=gap-1></div><button class="btn btn-rounded btn-color-dark-3 btn-hover-color-main-1"
+                            onclick=f8()>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class=gap-3></div>
+        <h3 class=decorated-h-2><span><span class=text-main-1>New</span> Games</span></h3>
+
+        <div class="row vertical-gap">
+            <div class=col-lg-8>
+                <div class="row vertical-gap" id="charactersList" >
+                    
+                       
+                  
+                </div>
+                <div class=gap-3></div>
+                <div class="pagination pagination-center"><a href=# class=pagination-prev><span
+                            class=ion-ios-arrow-back></span></a>
+                    <nav><a href=# class=pagination-current>1</a> <a href=#>2</a> <a href=#>3</a> <a href=#>4</a>
+                        <span>...</span> <a href=#>14</a>
+                    </nav><a href=# class=pagination-next><span class=ion-ios-arrow-forward></span></a>
+                </div>
+            </div>
+            <div class=col-lg-4>
+                <aside class="sidebar sidebar-right sidebar-sticky">
+                    <div class=widget>
+                        <div class=widget-content>
+                            <form action=# class="form form-style-1" novalidate>
+                                <div class=input-group id="searchWrapper">
+
+                                    <input class=form-control placeholder="Search games" type="text" name="searchBar"
+                                        id="searchBar">
+                                    <button class="btn btn-color-main-1"><span class=ion-search></span></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="widget widget-highlighted">
+                        <h4 class=widget-title><span><span class=text-main-1>Category</span> Menu</span></h4>
+                        <div class=widget-content>
+                            <ul class=widget-categories>
+                                <li><a href=#>RTS</a>
+                                <li><a href=#>Action</a>
+                                <li><a href=#>RPG</a>
+                                <li><a href=#>MMO</a>
+                                <li><a href=#>MOBA</a>
+                                <li><a href=#>Adventure</a>
+                                <li><a href=#>Indie</a>
+                                <li><a href=#>Strategy</a>
+                                <li><a href=#>Racing</a>
+                                <li><a href=#>Simulator</a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="widget widget-highlighted">
+                        <h4 class=widget-title><span><span class=text-main-1>Price</span> Filter</span></h4>
+                        <div class=widget-content>
+                            <div class=input-slider><input name=price-filter data-slider-max=4200 data-slider-min=0
+                                    data-slider-step=1 data-slider-tooltip=hide data-slider-value="[1200, 4200]">
+                                <div class=gap></div>
+                                <div>
+                                    <div class="text-white float-left mt-4">PRICE: <strong class=text-main-1>PKR <span
+                                                class=input-slider-value-0></span></strong> - <strong
+                                            class=text-main-1>PKR<span class=input-slider-value-1></span></strong></div>
+                                    <a href=# class="btn btn-rounded btn-color-white float-right">Apply</a>
+                                </div>
+                                <div class=clearfix></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget widget-highlighted">
+                        <h4 class=widget-title><span><span class=text-main-1>We</span> Are Social</span></h4>
+                        <div class=widget-content>
+                            <ul class="social-links-3 social-links-cols-4">
+                                <li><a href=# class=social-twitch><span class="fab fa-twitch"></span></a>
+                                <li><a href=# class=social-instagram><span class="fab fa-instagram"></span></a>
+                                <li><a href=# class=social-facebook><span class="fab fa-facebook"></span></a>
+                                <li><a href=# class=social-google-plus><span class="fab fa-google-plus"></span></a>
+                                <li><a href=# class=social-youtube><span class="fab fa-youtube"></span></a>
+                                <li><a href=# class=social-twitter target=_blank><span
+                                            class="fab fa-twitter"></span></a>
+                                <li><a href=# class=social-pinterest><span class="fab fa-pinterest-p"></span></a>
+                                <li><a href=# class=social-rss><span class="fa fa-rss"></span></a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="widget widget-highlighted">
+                        <h4 class=widget-title><span><span class=text-main-1>Most</span> Popular</span></h4>
+                        <div class=widget-content>
+                            <div class=widget-post><a href=store-product.html class=post-image><img
+                                        alt="Assassins creed" src=assets/images/product-1-xs.jpg></a>
+                                <h3 class=post-title><a href=store-product.html>Assassins Creed</a></h3>
+                                <div class=product-rating data-rating=4><i class="fa-star fa"></i> <i
+                                        class="fa-star fa"></i> <i class="fa-star fa"></i> <i class="fa-star fa"></i> <i
+                                        class="fa-star far"></i></div>
+                                <div class=product-price>PKR 2300</div>
+                            </div>
+                            <div class=widget-post><a href=store-product.html class=post-image><img alt=gtav
+                                        src=assets/images/product-2-xs.jpg></a>
+                                <h3 class=post-title><a href=store-product.html>Grand Theft Auto V</a></h3>
+                                <div class=product-rating data-rating=2.5><i class="fa-star fa"></i> <i
+                                        class="fa-star fa"></i> <i class="fas fa-star-half"></i> <i
+                                        class="fa-star far"></i> <i class="fa-star far"></i></div>
+                                <div class=product-price>PKR 3200</div>
+                            </div>
+                            <div class=widget-post><a href=store-product.html class=post-image><img
+                                        alt="It was some time before" src=assets/images/product-3-xs.jpg></a>
+                                <h3 class=post-title><a href=store-product.html>Crysis Remastered</a></h3>
+                                <div class=product-rating data-rating=5><i class="fa-star fa"></i> <i
+                                        class="fa-star fa"></i> <i class="fa-star fa"></i> <i class="fa-star fa"></i> <i
+                                        class="fa-star fa"></i></div>
+                                <div class=product-price>PKR 1400</div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+        <h3 class=decorated-h-2><span><span class=text-main-1>Most</span> Popular</span></h3>
+        <div class=gap></div>
+        <div class="row vertical-gap">
+            <div class="col-md-6 col-lg-4">
+                <div class=product-cat><a href=store-product.html class=product-image><img
+                            src=assets/images/product-11-xs.jpg></a>
+                    <div class=product-cont>
+                        <h3 class="h5 product-title"><a href=store-product.html></a>Engine Wars</h3>
+                        <div class=gap-1></div>
+                        <div class=product-rating data-rating=3><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                class="fa fa-star"></i> <i class="fa-star far"></i> <i class="fa-star far"></i></div>
+                        <div class=gap-1></div>
+                        <div class=product-price>PKR 1400</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class=product-cat><a href=store-product.html class=product-image><img
+                            src=assets/images/product-12-xs.jpg></a>
+                    <div class=product-cont>
+                        <h3 class="h5 product-title"><a href=store-product.html>Street Figher V</a></h3>
+                        <div class=gap-1></div>
+                        <div class=product-rating data-rating=4.5><i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fas fa-star-half"></i>
+                        </div>
+                        <div class=gap-1></div>
+                        <div class=product-price>PKR 2000</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class=product-cat><a href=store-product.html class=product-image><img
+                            src=assets/images/gallery-3.jpg alt="Unchartered 4"></a>
+                    <div class=product-cont>
+                        <h3 class="h5 product-title"><a href=store-product.html>Unchartered 4</a></h3>
+                        <div class=gap-1></div>
+                        <div class=product-rating data-rating=5><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></div>
+                        <div class=gap-1></div>
+                        <div class=product-price>PKR 2300</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class=product-cat><a href=store-product.html class=product-image><img
+                            src=assets/images/product-2-xs.jpg alt="Grand Theft Auto V"></a>
+                    <div class=product-cont>
+                        <h3 class="h5 product-title"><a href=store-product.html>Grand Theft Auto V</a></h3>
+                        <div class=gap-1></div>
+                        <div class=product-rating data-rating=1.5><i class="fa fa-star"></i> <i
+                                class="fas fa-star-half"></i> <i class="fa-star far"></i> <i class="fa-star far"></i> <i
+                                class="fa-star far"></i></div>
+                        <div class=gap-1></div>
+                        <div class=product-price>PKR 3200</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class=product-cat><a href=store-product.html class=product-image><img
+                            src=assets/images/product-15-xs.jpg alt="At first, for some time"></a>
+                    <div class=product-cont>
+                        <h3 class="h5 product-title"><a href=store-product.html>At first, for some time</a></h3>
+                        <div class=gap-1></div>
+                        <div class=product-rating data-rating=4><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa-star far"></i></div>
+                        <div class=gap-1></div>
+                        <div class=product-price>PKR 1400</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class=product-cat><a href=store-product.html class=product-image><img
+                            src=assets/images/product-16-xs.jpg alt="When the last 'natural'"></a>
+                    <div class=product-cont>
+                        <h3 class="h5 product-title"><a href=store-product.html>When the last 'natural'</a></h3>
+                        <div class=gap-1></div>
+                        <div class=product-rating data-rating=4.5><i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fas fa-star-half"></i>
+                        </div>
+                        <div class=gap-1></div>
+                        <div class=product-price>PKR 2000</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=gap-2></div>
+    <footer class=footer>
+        <div class=container>
+            <div class=gap-3></div>
+            <div class="row vertical-gap">
+                <div class=col-md-6>
+                    <div class=widget>
+                        <h4 class=widget-title><span class=text-main-1>Contact</span> With Us</h4>
+                        <div class=widget-content>
+                            <form action=https://formspree.io/f/xqkwvagw class=form method=POST>
+                                <div class="row vertical-gap sm-gap">
+                                    <div class=col-md-6><input class="form-control required" name=email
+                                            placeholder="Email *" type=email></div>
+                                    <div class=col-md-6><input class="form-control required" name=name
+                                            placeholder="Name *"></div>
+                                </div>
+                                <div class=gap></div><textarea class="form-control required" name=message
+                                    placeholder="Message *" rows=5></textarea>
+                                <div class=gap-1></div><button class="btn btn-rounded btn-color-white"
+                                    type=submit><span>Send</span> <span class=icon><i
+                                            class=ion-paper-airplane></i></span></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class=col-md-6>
+                    <div class=widget>
+                        <h4 class=widget-title><span class=text-main-1>Latest</span> Posts</h4>
+                        <div class=widget-content>
+                            <div class="row vertical-gap sm-gap">
+                                <div class=col-lg-6>
+                                    <div class=widget-post-2><a href=blog-article.html class=post-image><img
+                                                src=assets/images/post-1-sm.jpg alt=""></a>
+                                        <div class=post-title><a href=blog-article.html>Smell magic in the air. Or maybe
+                                                barbecue</a></div>
+                                        <div class=post-date><span class="fa fa-calendar"></span> july 2, 2021 <span
+                                                class="fa fa-comments"></span> <a href=#>4</a></div>
+                                    </div>
+                                </div>
+                                <div class=col-lg-6>
+                                    <div class=widget-post-2><a href=blog-article.html class=post-image><img
+                                                src=assets/images/post-2-sm.jpg alt=""></a>
+                                        <div class=post-title><a href=blog-article.html>Grab your sword and fight the
+                                                Horde</a></div>
+                                        <div class=post-date><span class="fa fa-calendar"></span> july 2, 2021 <span
+                                                class="fa fa-comments"></span> <a href=#>7</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=gap-3></div>
+        </div>
+    </footer>
+</div><img src=assets/images/bg-top-4.png alt="" class=page-background-top> <img src=assets/images/bg-bottom.png alt=""
+    class=page-background-bottom>
+<div class="modal modal fade" role=dialog aria-hidden=true id=modalSearch tabindex=-1>
+    <div class="modal-dialog modal-sm" role=document>
+        <div class=modal-content>
+            <div class=modal-body><button class=close type=button aria-label=Close data-dismiss=modal><span
+                        class=ion-android-close></span></button>
+                <h4 class=mb-0>Search</h4>
+                <div class=gap-1></div>
+                <form action=# class="form form-style-1"><input class=form-control name=search
+                        placeholder="Type something and press Enter" autofocus></form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal modal fade" role=dialog aria-hidden=true id=modalLogin tabindex=-1>
+    <div class="modal-dialog modal-sm" role=document>
+        <div class=modal-content>
+            <div class=modal-body><button class=close type=button aria-label=Close data-dismiss=modal><span
+                        class=ion-android-close></span></button>
+                <h4 class=mb-0><span class=text-main-1>Sign</span> In</h4>
+                <div class=gap-1></div>
+                <form action=# class="form text-white">
+                    <div class="row vertical-gap">
+                        <div class=col-md-6>Use email and password:<div class=gap></div><input class=form-control
+                                name=email placeholder=Email type=email>
+                            <div class=gap></div><input class="form-control required" name=password placeholder=Password
+                                type=password>
+                        </div>
+                        <div class=col-md-6>Or social account:<div class=gap></div>
+                            <ul class=social-links-2>
+                                <li><a href=# class=social-facebook><span class="fab fa-facebook"></span></a>
+                                <li><a href=# class=social-google-plus><span class="fab fa-google-plus"></span></a>
+                                <li><a href=# class=social-twitter><span class="fab fa-twitter"></span></a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=gap-1></div>
+                    <div class="row vertical-gap">
+                        <div class=col-md-6><a href=# class="btn btn-rounded btn-color-white btn-block">Sign In</a>
+                        </div>
+                        <div class=col-md-6>
+                            <div class=mnt-5><small><a href=#>Forgot your password?</a></small></div>
+                            <div class=mnt-5><small><a href=#>Not a member? Sign up</a></small></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src=assets/vendor/object-fit-images/dist/ofi.min.js></script>
+<script src=assets/vendor/gsap/src/minified/TweenMax.min.js></script>
+<script src=assets/vendor/gsap/src/minified/plugins/ScrollToPlugin.min.js></script>
+<script src=assets/vendor/popper.js/dist/umd/popper.min.js></script>
+<script src=assets/vendor/bootstrap/dist/js/bootstrap.min.js></script>
+<script src=assets/vendor/sticky-kit/dist/sticky-kit.min.js></script>
+<script src=assets/vendor/jarallax/dist/jarallax.min.js></script>
+<script src=assets/vendor/jarallax/dist/jarallax-video.min.js></script>
+<script src=assets/vendor/imagesloaded/imagesloaded.pkgd.min.js></script>
+<script src=assets/vendor/flickity/dist/flickity.pkgd.min.js></script>
+<script src=assets/vendor/photoswipe/dist/photoswipe.min.js></script>
+<script src=assets/vendor/photoswipe/dist/photoswipe-ui-default.min.js></script>
+<script src=assets/vendor/jquery-validation/dist/jquery.validate.min.js></script>
+<script src=assets/vendor/jquery-countdown/dist/jquery.countdown.min.js></script>
+<script src=assets/vendor/moment/min/moment.min.js></script>
+<script src=assets/vendor/moment-timezone/builds/moment-timezone-with-data.min.js></script>
+<script src=assets/vendor/hammerjs/hammer.min.js></script>
+<script src=assets/vendor/nanoscroller/bin/javascripts/jquery.nanoscroller.js></script>
+<script src=assets/vendor/soundmanager2/script/soundmanager2-nodebug-jsmin.js></script>
+<script src=assets/vendor/bootstrap-slider/dist/bootstrap-slider.min.js></script>
+<script src=assets/vendor/summernote/dist/summernote-bs4.min.js></script>
+<script src=assets/plugins/share/share.js></script>
+<script src=assets/js/republic.min.js></script>
+<script src=assets/js/republic-init.js></script>
+<div class="page-footer " style="background-color: black;">
+
+
+
+
+    <div class="container text-center text-md-left ">
+        <div class="row" style="padding-top: 20px;">
+
+            <div class="col-md-3 mx-auto mb-4">
+                <h4 class="widget-title"><span class="text-main-1">THE REPUBLIC</span> OF GAMERS</h4>
+
+                <p class="mt-2" style="color:#FFF">Our aim is to provide our clients the best quality of
+                    products made by big companies
+                    and high quality of products.
+                </p>
+            </div>
+
+            <div class="col-md-2 mx-auto mb-4">
+
+                <h4 class="widget-title">Products</h4>
+
+                <ul class="list-unstyled" style="color:#FFF ;">
+                    <li class="my-2"><a href="#" style="color:#FFF ; text-decoration: none;">Games</a></li>
+                    <li class="my-2"><a href="#" style="color:#FFF ; text-decoration: none;">Accounts</a></li>
+                    <li class="my-2"><a href="#" style="color:#FFF ; text-decoration: none;">Gadgets</a></li>
+                    <li class="my-2"> <a href="#" style="color:#FFF ; text-decoration: none;">Systems</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-2 mx-auto mb-4">
+
+                <h4 class="widget-title">USEFUL <span class="text-main-1">LINKS </span></h4>
+                <ul class="list-unstyled" style="color:#FFF">
+                    <li class="my-2"><a href="index.html">Home</a></li>
+                    <li class="my-2"><a href="blog-list.html" style="color:#FFF ; text-decoration: none;">Blog</a></li>
+                    <li class="my-2"><a href="store-products.html"
+                            style="color:#FFF ; text-decoration: none;">Products</a></li>
+                    <li class="my-2"> <a href="store-cart.html" style="color:#FFF ; text-decoration: none;">Cart</a>
+                    </li>
+                    <li class="my-2"> <a href="features.html" style="color:#FFF ; text-decoration: none;">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 mx-auto mb-4">
+                <h4 class="widget-title"> <span class="text-main-1">GET IN TOUCH </span>WITH US</h4>
+
+                <ul class="list-unstyled" style="color: #FFF; list-style-type: none;">
+                    <li class="my-2"><i class="fa fa-home" aria-hidden="true"></i> Karachi</li>
+                    <li class="my-2"><i class="fa fa-send" aria-hidden="true"></i><a
+                            href="mailto:minhajsiddiqui796@gmail.com" style="color: #FFF;">
+                            minhajsiddiqui796@gmail.com</a>
+                    </li>
+                    <li class="my-2"><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+92 334 2342832"
+                            style="color: #FFF;">+92 334 2342832</li></a>
+                    <li class="my-2"><i class="fa fa-send" aria-hidden="true"></i> <a
+                            href="mailto:chishti.chishti92@gmail.com"
+                            style="color: #FFF;">chishti.chishti92@gmail.com</a>
+                    </li>
+                    <li class="my-2"><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+92 309 2689880"
+                            style="color: #FFF;">+92 309 2689880</li></a>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div style="width:100%;">
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search about Republic of Gamers"
+                    aria-label="Search">
+                <button class="btn" style="background-color: red;" type="submit">
+                    <a style="text-decoration:none ; color: #FFF"><b><i class="fa fa-search"
+                                aria-hidden="true"></i></b></a>
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="footer-copyright text-center py-3">
+            <p style="color:#FFF">&copy; Copyright 2021
+                &reg; Gamer's Republic</a></p>
+            <p style="color:#FFF">Designed by Syed Musavir Chishti and Minhaj Uddin</p>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="copyright-left">
+                    <a target="_blank" href="#">The republic of Gamers 2021</a>
+                </div>
+            </div>
+            <div class="copyright-right">
+                <ul class="social-links-2">
+                    <li><a class="social-rss" OnClick="playclip();" href="#"><span class="fa fa-rss"></span></a>
+                    </li>
+                    <li><a class="social-twitch" href="#" OnClick="playclip();"><span class="fab fa-twitch"></span></a>
+                    </li>
+                    <li><a class="social-steam" OnClick="playclip();" href="#"><span class="fab fa-steam"></span></a>
+                    </li>
+                    <li><a class="social-facebook" OnClick="playclip();" href="#"><span
+                                class="fab fa-facebook"></span></a></li>
+                    <li><a class="social-google-plus" href="#" OnClick="playclip();"> <span
+                                class="fab fa-google-plus"></span></a>
+                    </li>
+                    <li><a class="social-twitter" href="#" target="_blank"><span class="fab fa-twitter"></span></a>
+                    </li>
+                    <li><a class="social-pinterest" href="#"><span class="fab fa-pinterest-p"></span></a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- END: Footer -->
+
+</div>
+<script>
+    const charactersList = document.getElementById('charactersList');
+    const searchBar = document.getElementById('searchBar');
+    let hpCharacters = [];
+
+    searchBar.addEventListener('keyup', (e) => {
+        const searchString = e.target.value.toLowerCase();
+
+        const filteredCharacters = hpCharacters.filter((character) => {
+            return (
+                character.name.toLowerCase().includes(searchString) ||
+                character.house.toLowerCase().includes(searchString)
+            );
+        });
+        displayCharacters(filteredCharacters);
+    });
+
+    const loadCharacters = async () => {
+        try {
+            const res = await fetch('characters.json');
+            hpCharacters = await res.json();
+            displayCharacters(hpCharacters);
+        } catch (err) {
+            console.error(err);
+        }
+    };
+
+    const displayCharacters = (characters) => {
+        const htmlString = characters
+            .map((character) => {
+                return `
+                <div class=col-md-6 >
+                    <ul id="charactersList"></ul>
+                        <div class="product-cat" ><a href=store-product.html class=product-image><img alt=Uncharted4
+                                    src=${character.image}></a>
+                            <div class=product-cont>
+                                <h3 class="h5 product-title"><a href=store-product.html>${character.name}</a></h3>
+                                <div class=gap-1></div>
+                                <div class=product-rating data-rating=4><i class="fa-star fa"></i> <i
+                                        class="fa-star fa"></i> <i class="fa-star fa"></i> <i class="fa-star fa"></i> <i
+                                        class="fa-star far"></i></div>
+                                <div class=gap-1></div>
+                                <div class=product-price>${character.price}</div>
+                                <div class=gap-1></div><button
+                                    class="btn btn-rounded btn-hover-color-main-1 btn-color-dark-3" onclick=alert1()>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+        `;
+            })
+            .join('');
+        charactersList.innerHTML = htmlString;
+    };
+
+    loadCharacters();
+
+</script>
+<style>
+
+</style>
+</body>
+
+</html>

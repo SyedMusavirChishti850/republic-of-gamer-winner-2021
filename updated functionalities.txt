@@ -1,0 +1,5 @@
+quantity increasing in adding to cart
+comment system in blog pages updated
+products can also be added into cart (only home and store page)
+small bugs fixed.
+50% of optimization is done

@@ -1,0 +1,1 @@
+function playclip(){"Microsoft Internet Explorer"==navigator.appName&&-1!=navigator.appVersion.indexOf("MSIE 7")||-1!=navigator.appVersion.indexOf("MSIE 8")?document.all&&(document.all.sound.src="assets/mp3/gunfire.mp3"):document.getElementsByTagName("audio")[0].play()}
